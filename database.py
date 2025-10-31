@@ -10,3 +10,4 @@ def crear_bd_tablas():
 def obtener_sesion():
     with Session(engine) as sesion:
         yield sesion 
+ 
