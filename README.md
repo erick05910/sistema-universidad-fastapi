@@ -4,3 +4,4 @@ Sistema de gestión académica completo
 pip install -r requirements.txt
 python main.py
  
+ 
