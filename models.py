@@ -29,3 +29,4 @@ class Matricula(SQLModel, table=True):
 
     estudiante: Estudiante = Relationship(back_populates="matriculas")
     curso: Curso = Relationship(back_populates="matriculas") 
+ 
